@@ -2,7 +2,8 @@ body{
   background-color: #ffffff;
   
  }
-.box{
+
+  .box{
     display: inline-block;
     flex-direction:column;
     margin-left: 1rem;
@@ -13,7 +14,18 @@ body{
     transform: translate(400px,10px);
     
   }
+  .box:hover{
+    display: inline-block;
+    flex-direction:column;
+    margin-left: 1rem;
+    margin-top: 100px;
+    background-color: #005fc5;
+    box-shadow: 0 0 40px rgb(8 7 16 / 60%);
+    padding: 30px 35px;
+    transform: translate(400px,10px);
 
+    
+  }
   
 .profile{
   width: 1300px;
@@ -33,13 +45,11 @@ body{
     margin-right: 20px;
   }
 
+
   a {
     text-decoration: none !important;
   }
-  
-  span:hover{
-    color : rgb(227, 227, 118);
-  }
+
 img{
   width: 300px;
   height: auto;
