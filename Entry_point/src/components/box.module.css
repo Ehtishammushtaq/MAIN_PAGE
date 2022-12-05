@@ -36,6 +36,7 @@ body{
   a {
     text-decoration: none !important;
   }
+  
   span:hover{
     color : rgb(227, 227, 118);
   }
