@@ -1,0 +1,54 @@
+body{
+  background-color: #ffffff;
+  
+ }
+.box{
+    display: inline-block;
+    flex-direction:column;
+    margin-left: 1rem;
+    margin-top: 100px;
+    background-color: #000000;
+    box-shadow: 0 0 40px rgb(8 7 16 / 60%);
+    padding: 30px 35px;
+    transform: translate(400px,10px);
+    
+  }
+  
+.profile{
+  width: 1300px;
+  height: 700px;
+  padding: 5px;
+  background-color: #000000;
+  transform: translate(200px,100px);
+
+}
+  
+  span, a, p{
+    color: rgb(236, 255, 255);
+    font-family: Andale Mono, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+
+img{
+  width: 300px;
+  height: auto;
+
+  margin-left: 30px;
+  position: absolute;
+  top: 368px; left: 10px; right: 10px; bottom: 10px;
+}
+
+ .textbox{
+  margin-left: 350px;
+  text-align: justify;
+ }
+ hr{
+  margin-left: 10px;
+ }
