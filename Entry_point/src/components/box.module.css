@@ -13,6 +13,7 @@ body{
     transform: translate(400px,10px);
     
   }
+
   
 .profile{
   width: 1300px;
@@ -35,7 +36,9 @@ body{
   a {
     text-decoration: none !important;
   }
-
+  span:hover{
+    color : rgb(227, 227, 118);
+  }
 img{
   width: 300px;
   height: auto;
@@ -48,6 +51,7 @@ img{
  .textbox{
   margin-left: 350px;
   text-align: justify;
+  
  }
  hr{
   margin-left: 10px;
